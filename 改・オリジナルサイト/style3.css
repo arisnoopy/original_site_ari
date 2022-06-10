@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Cherrybomb';
+	src: url(/fonts/Cherrybomb.ttf);
+}
+
+*{
+    font-family: 'UD デジタル 教科書体 NK-B';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+color: #000;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,1);
+    color:#c01d74;
+    margin-top: 0;
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    color:#c01d74;
+}
+
+header p{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header a{
+    font-size: 24px;
+    font-weight: bold;
+    color:#c01d74;
+}
+
+
+.firstview {
+    padding-top: 80px;
+    background-color: #c01d74;
+    color:#fff;
+    
+}
+
+.firstview h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.firstview h2{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.flavor p{
+  color: #192e77;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+
+h3{
+    text-align: center;
+    font-size: 70px;
+    color: #c01d74;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+    color: #c01d74;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+.aloha{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+   
+}
+.aloha p{
+    color: #c01d74;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.aloha img{
+    width: 250px;
+}
+
+.ices{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.fom{
+    background-image: url(imgs/3_background.png);
+    background-size: cover;
+    height: 800px;
+} 
+
+.fom h3{
+    padding-top: 80px;
+}
+
+footer{
+    height: 80px;
+    background-color: #e5a7c9;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #c01d74;
+}

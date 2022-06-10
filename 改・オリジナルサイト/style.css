@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Cherrybomb';
+	src: url(/fonts/Cherrybomb.ttf);
+}
+
+*{
+    font-family: 'UD デジタル 教科書体 NK-B';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+color: #000;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(255,255,255,1);
+    color:#c01d74;
+    margin-top: 0;
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    color:#c01d74;
+}
+
+header p{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header a{
+    font-size: 24px;
+    font-weight: bold;
+    color:#c01d74;
+}
+
+h2{
+    font-size: 70px;
+    color:#c01d74;
+    letter-spacing: 0.1em;
+    display: inline-block;
+}
+
+h3{
+    color:#c01d74;
+    font-size: 26px;
+}
+
+.blank{
+    height: 80px;
+    background-color: #000;
+}
+
+
+.firstView img{
+    width: 100%;
+}
+
+.intro{
+    padding: 180px;  
+}
+
+
+
+
+.intro p{
+    font-size: 24px;
+    margin-top: 24px;
+    text-align: center;
+    color:#192e77;
+}
+
+.motto{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.motto img{
+    width: 600px;
+    padding: 25px
+}
+
+.motto p{
+    text-align: left;
+    padding: 50px 50px 50px 25px;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+
+
+.order{
+    text-align: center;
+    background-color: #fbe4ee;
+    background-size: cover;
+    padding: 80px 180px 80px;
+}
+
+.order-content{
+    width: 320px;
+    padding: 40px;
+   
+}
+
+.order p{
+    font-size: 24px;
+    margin-top: 24px;
+    text-align: center;
+    color:#192e77;
+}
+
+.order-content img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.order-contents{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.order a{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+}
+
+.order .botton{
+    background-color: #c01d74;
+}
+
+.flavor{
+    padding: 180px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.flavor p{
+    font-size: 24px;
+    margin-top: 24px;
+    text-align: center;
+    color:#192e77;
+}
+
+
+
+.flavor img{
+    width: 400px;
+    padding: 40px;
+}
+
+.flavor a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+    margin: 30px;
+}
+
+.flavor .botton{
+    background-color: #c01d74;
+}
+
+
+.infomation{
+    padding: 50px 370px;
+    text-align: center;
+    background-color: #fbe4ee;
+}
+
+
+.infomation p{
+    font-size: 24px;
+    margin-top: 24px;
+    text-align: center;
+    color:#192e77;
+}
+
+.infomation a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #fff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+    margin: 30px;
+}
+
+.infomation .botton{
+    background-color: #c01d74;
+}
+
+
+
+footer{
+    height: 60px;
+    background-color: #e5a7c9;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #c01d74;
+}
